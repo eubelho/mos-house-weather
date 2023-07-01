@@ -11,7 +11,7 @@ Imagining Mo's House as an international chain with the same charm as a local co
 
 #### Wireframe
 
-![Imgur](https://imgur.com/YGzzpJ1)
+![Wireframe](images/wireframe.jpg)
 
 
 ###### Technologies Used: 
