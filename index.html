@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatcha Drinkin'?</title>
+    <script src = "https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script defer src = "app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Allerta+Stencil&family=Almendra+Display&family=Annie+Use+Your+Telescope&family=Berkshire+Swash&family=Bonbon&family=Bungee+Hairline&family=Bungee+Outline&family=Gugi&family=Henny+Penny&family=Hi+Melody&family=JetBrains+Mono:wght@100&family=Kristi&family=Love+Light&family=Mali:wght@500&family=Megrim&family=Monoton&family=New+Rocker&family=Ole&family=Petit+Formal+Script&family=Princess+Sofia&family=Raleway+Dots&family=Rock+3D&family=Rock+Salt&family=Satisfy&family=Sevillana&family=Shadows+Into+Light+Two&family=Snowburst+One&family=Supermercado+One&family=Unica+One&family=Warnes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h1 id="title" class="rainbow-text"> Whatcha Drinkin At</h1>
+        <img src="https://static.wixstatic.com/media/ba3e8b_2e02df43024c40b293875c376ba753d7~mv2_d_1427_1435_s_2.png/v1/fill/w_563,h_565,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ba3e8b_2e02df43024c40b293875c376ba753d7~mv2_d_1427_1435_s_2.png"
+        alt="Mos House Logo"/>
+    </div>
+        <header>
+            <ul id="pageList" class="rainbow-text">
+                <li><a href="https://www.metzgerstavernky.com/" target="_blank" rel="noopener noreferrer">
+                Metzger's
+                </a>
+                </li>
+                <li><a href="https://www.mos-house.com/" target="_blank" rel="noopener noreferrer">
+                    Mo's House
+                </a>
+            </li>
+            <li><a href="https://www.mos-house.com/m-t-m-s" target="_blank" rel="noopener noreferrer">
+                M.T.M.S
+            </a>
+            </li>
+            </ul>
+            <h2> Type in Your City Below, We'll Do the Rest.</h2>
+        </header>
+
+        <form class="search">
+            <input type="text" name="city" placeholder="Enter Your City Name">
+             <input type="submit" value="Search">
+        </form>
+        <div id="weatherInfo"></div>
+    <h3>Location:</h3>
+    <p id="city"></p>
+    <h3>Temperature:</h3>
+    <p id="temp"></p>
+    <h3>Feels Like:</h3>
+    <p id="feels"></p>
+    <h3>Weather:</h3>
+    <p id="report"></p>
+    <h3>Drink Suggestion:</h3>
+    <p id="drink"></p>   
+</body>
+</html>
