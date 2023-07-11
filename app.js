@@ -36,16 +36,3 @@ function render() {
     let drink = weather < 60 ? "Hot Toddy" : "My Thai";
     $drink.text(drink);
   }
-
-
-// const drinks = []
-// fetch("https://api.openweathermap.org/data/2.5/weather?")
-//   .then(response => response.json())
-//   .then(function (result) {
-//     console.log('Result', result)
-//     for (var i = 0; i < result.length; i++) {
-//       words.push(result[i])
-//     }
-//     console.log('Words', words)
-//   })
-//   .catch(error => console.log('error', error));
